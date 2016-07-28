@@ -1,0 +1,3 @@
+# scp -r send_filepath [user]@ip:dest_filepath 
+
+ex) # scp -r /home/(user)/fileDirectory/* maru@hanmaru64.ipdisk.co.kr:/home/maru/Project/data
