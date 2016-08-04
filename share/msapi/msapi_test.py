@@ -96,9 +96,9 @@ def resultImage( result, img, filename ):
     count = 0
     for currFace in result:
         faceRectangle = currFace['faceRectangle']
-        cv2.rectangle( img,(faceRectangle['left'],faceRectangle['top']),
-                           (faceRectangle['left']+faceRectangle['width'], faceRectangle['top'] + faceRectangle['height']),
-                       color = (255,0,0), thickness = 1 )
+        #cv2.rectangle( img,(faceRectangle['left'],faceRectangle['top']),
+        #                   (faceRectangle['left']+faceRectangle['width'], faceRectangle['top'] + faceRectangle['height']),
+        #               color = (255,0,0), thickness = 1 )
 
         faceLandmarks = currFace['faceLandmarks']
         
